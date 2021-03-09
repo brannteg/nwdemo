@@ -13,4 +13,6 @@ Files included here is:
 Put all files in one directory including the downloaded nwjs.sdk file.
 If you opt to use another version of download, change the Dockerfile accordingly.
 Run sudo docker build . nwdemo
-When done start it by running ./startit
+When done make startit runnable, chmod +x startit and start by running ./startit
+
+To install docker on a debian, sudo apt install docker.io

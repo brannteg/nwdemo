@@ -1,0 +1,13 @@
+{
+  "main": "index.html",
+  "name": "NW js test window",
+  "chromium-args": "--allow-running-insecure-content --ignore-certificate-errors",
+  "window": {
+    "title": "NW js test window",
+    "always_on_top": true,
+    "show": false,
+    "width": 800,
+    "height": 600,
+    "resizable": true
+  }
+}

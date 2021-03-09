@@ -1,0 +1,4 @@
+nwjs-sdk-*
+.cache
+.config
+.pki

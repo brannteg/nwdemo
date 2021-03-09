@@ -1,0 +1,4 @@
+#!/bin/bash
+xhost +
+sudo docker run --privileged -it -e=DISPLAY=:0.0 -v=/tmp/.X11-unix:/tmp/.X11-unix -v=/etc/X11/xorg.conf:/etc/X11/xorg.conf:ro -v=$(pwd):/root -h nwdemo --name nwdemo nwdemo:latest
+sudo docker rm nwdemo

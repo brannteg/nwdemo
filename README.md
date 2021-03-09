@@ -2,6 +2,7 @@ This is a nwjs test to demonstrate and run a browser against a predefined server
 
 The container is built round the nw version 0.38.4
 download it here https://dl.nwjs.io/v0.38.4/nwjs-sdk-v0.38.4-linux-x64.tar.gz
+and put it amongst the rest of these files.
 
 Files included here is:
   Dockerfile	: Docker recepie to build the test container.
